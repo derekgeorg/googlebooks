@@ -4,13 +4,13 @@ export default {
    getSavedBooks(){
        return axios.get("/api/books");
    } ,
-   getBookById(bookId){
+   getBookById(id){
        return axios.get("/api/books/" + id);
    } ,
-   saveBook(bookId){
+   saveBook(id){
        return axios.post("/api/books/" + id);
    } ,
-   deleteBook(bookId){
+   deleteBook(id){
        return axios.delete("api/books/" + id);
    } ,
    searchGoogleBooks(bookQuery){

@@ -7,7 +7,9 @@
     "express": "^4.16.4",
     "mongoose": "^5.5.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
